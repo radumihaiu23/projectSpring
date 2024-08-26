@@ -23,6 +23,6 @@ public class WeatherController {
         //last time the weather information was updated
 
         // .../api/weather?city=London
-        return ResponseEntity.ok(weatherService.get);
+        return ResponseEntity.ok(weatherService.getCityWeather(city));
     }
 }

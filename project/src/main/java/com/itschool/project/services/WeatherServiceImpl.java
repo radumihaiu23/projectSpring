@@ -22,7 +22,6 @@ public class WeatherServiceImpl implements WeatherService {
     private final String apiValue = "http://api.weatherapi.com/v1/current.json?";
     private final String key = "020ac53a8b254519b36172002241908";
 
-
     @Override
     public Weather getWeather(String city) throws IOException {
         OkHttpClient client = new OkHttpClient();
