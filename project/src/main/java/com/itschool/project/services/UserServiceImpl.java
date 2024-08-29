@@ -1,6 +1,6 @@
 package com.itschool.project.services;
 
-import com.itschool.project.models.User;
+import com.itschool.project.models.entities.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

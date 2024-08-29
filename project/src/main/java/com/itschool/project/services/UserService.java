@@ -1,6 +1,6 @@
 package com.itschool.project.services;
 
-import com.itschool.project.models.User;
+import com.itschool.project.models.entities.User;
 
 public interface UserService {
 
